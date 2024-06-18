@@ -10,3 +10,5 @@ Currently, two official plugins are available:
 ![weather](https://github.com/rock-02/agrofarmFrontend/assets/98045645/f71373bd-6b94-4172-aa21-7f8249604668)
 ![filter-crops](https://github.com/rock-02/agrofarmFrontend/assets/98045645/5bbec64a-8ca7-49f4-9fe6-8e714b7508fb)
 ![feedbackorcontact](https://github.com/rock-02/agrofarmFrontend/assets/98045645/2066f2c9-edd5-4c79-a785-4c909b2cdca7)
+![wasteseell](https://github.com/rock-02/agrofarmFrontend/assets/98045645/8bd13b49-d391-4921-858d-69d5e6a7f11e)
+![edit](https://github.com/rock-02/agrofarmFrontend/assets/98045645/70c29270-8852-4194-8abb-5bf8e841a9d6)
