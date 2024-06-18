@@ -1,0 +1,109 @@
+.home {
+  background-color: rgb(33, 32, 32);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 2vw;
+}
+
+#page-home {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  margin: 0 2vw;
+  background-image: url("https://cdn.pixabay.com/photo/2023/03/31/14/52/rice-field-7890204_1280.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 0 2vw;
+}
+
+.title {
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: rgb(230, 73, 6);
+}
+
+#page-home p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: rgb(223, 229, 229);
+  letter-spacing: 2px;
+}
+
+#home-services {
+  height: 90vh;
+  padding: 2vw;
+  background-color: rgb(33, 32, 32);
+}
+
+#home-services h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: rgb(43, 13, 211);
+  text-transform: uppercase;
+  /* display: flex;
+  gap: 2rem; */
+}
+
+.weather {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 30%;
+  padding: 3px 6px;
+  height: auto;
+  gap: 1rem;
+  border-radius: 5px;
+  background-color: #575555;
+}
+
+.weather img {
+  width: 100%;
+}
+
+.weather h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgb(9, 225, 225);
+  text-transform: uppercase;
+}
+
+.weather p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgb(223, 229, 229);
+}
+
+.home-services2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 1vw;
+}
+
+#footer-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(33, 32, 32); */
+  /* background-color: red; */
+  gap: 5rem;
+  height: 20vh;
+  color: rgb(223, 229, 229);
+}
+
+#footer-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#footer-2 p {
+  font-size: 3rem;
+  font-weight: 500;
+  color: rgb(223, 229, 229);
+}

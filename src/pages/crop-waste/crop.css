@@ -1,0 +1,53 @@
+/* crop.css */
+
+/* Styling for the parent container */
+.crop {
+  display: flex;
+  flex-direction: row;
+  overflow-y: hidden;
+  justify-content: center;
+  padding-top: 1rem;
+  background-image: url(https://cdn-prodapi.iffcobazar.in/pub/media/catalog/product/e/x/exploring_the_benefits_of_waste_decomposer_in_farming.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+/* Styling for the left side container */
+.w-50 {
+  width: 50%;
+  height: 100%;
+}
+
+.bg-cyan-300 {
+  background-color: #6dd7b9; /* Tailwind's cyan-300 color value */
+}
+
+.crop-waste-item {
+  margin-bottom: 1rem;
+  padding: 1rem; /* Padding inside items */
+  border: 1px solid #ddd; /* Border around items */
+  border-radius: 0.5rem;
+  color: aliceblue; /* Rounded corners */
+}
+
+.crop1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  height: 90vh;
+  overflow-y: auto;
+  width: 60%; /* 50% width */
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+.hide-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.left-container {
+  width: 40%;
+  margin-left: 2rem;
+}

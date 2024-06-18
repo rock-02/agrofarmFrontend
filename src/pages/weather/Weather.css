@@ -1,0 +1,102 @@
+/* Base styles */
+.weather-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90vh;
+  gap: 1rem;
+  background-image: url(https://www.youthkiawaaz.com/wp-content/uploads/2023/05/C7VTlATb.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: #999696;
+}
+
+.weather-search {
+  width: 50%;
+  max-width: 600px;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-search input {
+  width: 100%;
+  border: 2px solid #010101;
+  border-radius: 5px;
+  padding: 2px 5px;
+  font-size: 1.5rem;
+  outline: none;
+  border-radius: 5px;
+}
+
+.weather-card {
+  width: 90%;
+  max-width: 600px;
+  height: 350px;
+  margin-top: 1rem;
+  border-radius: 10px;
+  padding: 15px 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-image: url(https://i.pinimg.com/564x/0c/d0/78/0cd0783bf1a9f3cd5a94a29c62651124.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.weather-info {
+  margin-left: 10px;
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  gap: 1rem;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.info-label {
+  margin-right: 5px;
+  font-weight: 700;
+  color: #dacf08;
+}
+
+.info-value {
+  font-weight: bold;
+  color: #333;
+}
+
+@media screen and (max-width: 768px) {
+  .weather-container {
+    gap: 1.5rem;
+    padding: 20px;
+    height: auto;
+  }
+
+  .weather-search {
+    width: 100%;
+  }
+
+  .weather-card {
+    width: 100%;
+    height: 350px;
+    margin-top: 2rem;
+  }
+
+  .weather-info {
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 15px;
+  }
+}
